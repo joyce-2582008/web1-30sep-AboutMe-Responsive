@@ -1,0 +1,291 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Joyce Margareth Sembiring</title>
+  <style>
+    html {
+      scroll-behavior: smooth; /* Membuat efek geser halus saat menu diklik */
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* HEADER & NAVIGASI BERWARNA ESTETIK */
+    header {
+      background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+      color: #4a3f6b;
+      text-align: center;
+      padding: 40px 20px 25px;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 5px;
+    }
+    nav {
+      background: #ffffff;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      z-index: 100;
+    }
+    nav a {
+      color: #4a3f6b;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #2575fc;
+    }
+
+    /* CONTAINER UTAMA */
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    /* KARTU KONTEN BERWARNA */
+    section {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+    }
+    h2 {
+      color: #2575fc;
+      border-bottom: 3px solid #e0c3fc;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+    h3 {
+      color: #4a3f6b;
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
+
+    /* FOTO PROFIL */
+    .profile-img-box {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .profile-img-box img {
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+      object-fit: cover;
+    }
+
+    /* TABEL CATATAN AKADEMIK */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #e0e0e0;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #8ec5fc;
+      color: #2c3e50;
+    }
+
+    /* FORM HUBUNGI SAYA */
+    form p {
+      margin-bottom: 15px;
+    }
+    label {
+      font-weight: bold;
+      color: #555;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      margin-top: 5px;
+      font-size: 1rem;
+      outline: none;
+      transition: border-color 0.3s;
+    }
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+      border-color: #2575fc;
+    }
+    button[type="submit"] {
+      background: linear-gradient(45deg, #6a11cb, #2575fc);
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: opacity 0.3s;
+    }
+    button[type="submit"]:hover {
+      opacity: 0.9;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Tentang Saya</h1>
+    <p>Selamat datang di halaman profil pribadi saya :) </p>
+  </header>
+
+  <!-- NAVIGATOR: Link ke section lainnya -->
+  <nav>
+    <a href="#Profil">Profil</a>
+    <a href="#Hobbi">Hobbi</a>
+    <a href="#Akademik">Akademik</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <!-- MAIN -->
+  <main>
+    
+    <!-- SECTION PROFIL -->
+    <section id="Profil">
+      <h2>Profil Mahasiswa</h2>
+      
+      <div class="profile-img-box">
+        <img src="fotoku.jpg.jpeg" alt="Foto Profil Joyce" width="200" height="200">
+      </div>
+
+      <p>
+        Hallo, nama saya Joyce Margareth Sembiring. 
+        saya mahasiswa Universitan Advent Indonesia angkatan 25
+        yang terletak di Bandung. saya berada di fakultas 
+        Teknik Informatika, Jurusan Sistem Informasi.
+      </p>
+      <br>
+      <p>
+        Saya berharap setelah saya lulus dari UNAI fakultas FTI, saya bisa mendapatkan pekerjaan yang sesuai dengan jurusan saya dan yg saya minati dari sekarang, dan sesuai dengan ekspetasi saya. Saya akan terus belajar, menambah pengalaman, dan mengembangkan kemampuan saya di dunia tegnologi. saya juga ingin mendapat gaji yang besar diatas UMR hehe, doakan saya yaa!!!
+      </p>
+
+      <h3>Informasi Pribadi</h3>
+      <p>
+        <strong>Nama: </strong>Joyce Margareth Sembiring<br>
+        <strong>NIM: </strong>2582008<br>
+        <strong>Study Program: </strong>Sistem Informasi<br>
+        <strong>Email: </strong><a href="mailto:2582008@unai.edu">2582008@unai.edu</a>
+      </p>
+    </section>
+
+    <!-- SECTION HOBI & AKTIVITAS -->
+    <section id="Hobbi">
+      <h2>Hobi Saya</h2>
+      <p>Saya memiliki beberapa hobi, seperti:</p>
+      <ul>
+        <li>Berenang</li>
+        <li>Dance</li>
+        <li>Menyanyi</li>
+        <li>Main Sepeda</li>
+      </ul>
+
+      <h3>Aktivitas Lain yang Saya Nikmati</h3>
+      <ul>
+        <li>Mendengarkan musik</li>
+        <li>Menonton Film</li>
+        <li>Menggambar & Membaca Komik</li>
+        <li>Pilates</li>
+      </ul>
+    </section>
+
+    <!-- CATATAN AKADEMIK (JADWAL KULIAH) -->
+    <section id="Akademik">
+      <h2>Catatan Akademik</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>NO</th>
+            <th>Semester</th>
+            <th>Tahun Akademik</th>
+            <th>IPK</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Semester Ganjil</td>
+            <td>Tahun 2025/2026</td>
+            <td>3.67</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Semester Genap</td>
+            <td>Tahun 2026/2027</td>
+            <td>3.57</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- HUBUNGI SAYA & EMAIL -->
+    <section id="kontak">
+      <h2>Hubungi Saya</h2>
+      <p>Jika ada pertanyaan atau ingin berdiskusi, silakan isi formulir di bawah ini yaw:</p>
+      <br>
+      <form action="#" method="post" onsubmit="alert('Pesan berhasil terkirim!'); return false;">
+        <p>
+          <label for="nama">Nama Lengkap:</label><br>
+          <input type="text" id="nama" name="nama" required placeholder="Masukkan nama Anda">
+        </p>
+        <p>
+          <label for="email">Alamat Email:</label><br>
+          <input type="email" id="email" name="email" required placeholder="nama@email.com">
+        </p>
+        <p>
+          <label for="pesan">Pesan Anda:</label><br>
+          <textarea id="pesan" name="message" rows="4" required placeholder="Tuliskan pesan di sini..."></textarea>
+        </p>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- FOOTER PENUTUP -->
+  <footer>
+    <p>&copy; 2026 Joyce Margareth Sembiring - Fakultas Teknologi Informasi UNAI</p>
+  </footer>
+
+</body>
+</html>
